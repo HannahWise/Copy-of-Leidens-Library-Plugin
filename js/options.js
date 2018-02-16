@@ -29,14 +29,14 @@ $(document).ready(function () {
             var newLibraryURL = 'http://www.google.co.uk' + searchstring + '&source=LibrarySearchPluginPunblic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
             // Create the new tab
             chrome.tabs.create({
-                url: http://www.google.co.uk
+                url: newLibraryURL
             });
         }
         //Worldcat
         if (
             $('#worldcat').is(":checked")) {
             //alert("WorldCat checked");
-            var newWorldcatURL = 'https://www.worldcat.org/search?q=' + searchstring;
+            var newWorldcatURL = 'https://www.jam.com=' + searchstring;
             // Create the new tab
             chrome.tabs.create({
                 url: newWorldcatURL
