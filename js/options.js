@@ -26,10 +26,10 @@ $(document).ready(function () {
         if (
             $('#library').is(":checked")) {
             //change this url to match your library's! Here is Leiden's URL as an example for ExLibris Primo users - Old UI!
-            var newLibraryURL = 'http://surrey-primotc.hosted.exlibrisgroup.com/openurl/44SUR/44SUR_services_page' + searchstring + '&source=LibrarySearchPluginPunblic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
+            var newLibraryURL = 'http://www.google.co.uk' + searchstring + '&source=LibrarySearchPluginPunblic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
             // Create the new tab
             chrome.tabs.create({
-                url: newLibraryURL
+                url: http://www.google.co.uk
             });
         }
         //Worldcat
